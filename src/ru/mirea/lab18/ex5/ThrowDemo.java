@@ -16,4 +16,9 @@ public class ThrowDemo {
         }
         return "data for " + key;
     }
+    public static void main(String[] args) {
+        ThrowDemo t = new ThrowDemo();
+        t.printMessage("Hey");
+
+    }
 }
