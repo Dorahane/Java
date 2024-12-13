@@ -27,6 +27,9 @@ class HashTab {
     }
 
     // Хеш-функция
+    //Рассчитывает индекс для данного ключа 
+    //с помощью вызова hashCode() и оператора 
+    //взятия остатка от деления по размеру таблицы.
     private int hashtabHash(String key) {
         return key.hashCode() % size;
     }
